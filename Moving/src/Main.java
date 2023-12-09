@@ -1,12 +1,14 @@
-class Move {
+class Move implements Storage{
     /* *************************************** */
     // write your code here
     private Box[] boxArray;
-    public Move(int size){ //constructs a box with a defined capacity
+    public Move(int size){ //constructs the defined capacity of the move (using array)
         this.boxArray = new Box[size];
+        System.out.println("The objects of my move are:");
     }
     public void addBox(Box aBox) {
-        //implement this
+        int index = getIndex(this.boxArray);
+        this.boxArray[index] = aBox;
     }
 
     public Box find(String objectIdentifier){ //this return will be fixed in the ToString in Box
@@ -15,7 +17,9 @@ class Move {
     }
 
     public void print(){
-        //implement this
+        for (Box b: boxArray) {
+            System.out.println(b);
+        }
     }
 
     /* *************************************** */
@@ -68,5 +72,8 @@ class Move {
 
         // We print the number of the outermost cardboard containing the item "scarf"
         System.out.println("The scarf is in the cardboard number " + move.find("scarf"));
+
+        //MY TESTING AREA
+        //System.out.println(box5);
     }
 }
