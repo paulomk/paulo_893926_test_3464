@@ -1,6 +1,22 @@
 class Move {
     /* *************************************** */
     // write your code here
+    private Box[] boxArray;
+    public Move(int size){ //constructs a box with a defined capacity
+        this.boxArray = new Box[size];
+    }
+    public void addBox(Box aBox) {
+        //implement this
+    }
+
+    public Box find(String objectIdentifier){ //this return will be fixed in the ToString in Box
+        //implement this
+        return new Box(1,2); //placeholder
+    }
+
+    public void print(){
+        //implement this
+    }
 
     /* *************************************** */
 
@@ -51,5 +67,6 @@ class Move {
         move.print();
 
         // We print the number of the outermost cardboard containing the item "scarf"
-        System.out.println("The sarf is in the cardboard number " + move.find("scarf"));
+        System.out.println("The scarf is in the cardboard number " + move.find("scarf"));
     }
+}

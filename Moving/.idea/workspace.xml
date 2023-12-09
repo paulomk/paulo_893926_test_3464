@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd78c079-f0e3-41fc-b00e-39f0c7d73dbf" name="Changes" comment="" />
+    <list default="true" id="cd78c079-f0e3-41fc-b00e-39f0c7d73dbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Moving/src/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moving/src/SingleObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moving/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Moving/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moving/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "<unknown>",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702152288815</updated>
-      <workItem from="1702152289482" duration="677000" />
+      <workItem from="1702152289482" duration="2503000" />
     </task>
     <servers />
   </component>
