@@ -9,14 +9,6 @@ public class Box implements Storage{
 
     public void addItem(Object anObject) {
         int index = getIndex(this.objectsList);
-        while (true) {
-            if (objectsList[index] == null){
-                break;
-            }
-            else {
-                index++;
-            }
-        }
         this.objectsList[index] = anObject;
     }
 
