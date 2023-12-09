@@ -1,4 +1,4 @@
-public class Box {
+public class Box implements Storage{
     final private int boxId;
     Object[] objectsList;
 
@@ -8,7 +8,7 @@ public class Box {
     }
 
     public void addItem(Object anObject) {
-        int index = 0;
+        int index = getIndex(this.objectsList);
         while (true) {
             if (objectsList[index] == null){
                 break;
@@ -18,5 +18,15 @@ public class Box {
             }
         }
         this.objectsList[index] = anObject;
+    }
+
+    @Override
+    public String toString(){
+        String result = "";
+        for (Object o : objectsList) {
+            //System.out.println(o);
+            result += o + "\n";
+        }
+        return result.trim();
     }
 }

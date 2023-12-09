@@ -4,4 +4,9 @@ public class SingleObject {
     public SingleObject(String aString){
         this.name = aString;
     }
+
+    @Override
+    public String toString(){
+        return this.name;
+    }
 }
